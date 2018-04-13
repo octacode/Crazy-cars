@@ -50,13 +50,6 @@
   <div class="float-left">
 
     <div id="data">
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="X8VB9NDYWQDPE">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit"
-               alt="PayPal - The safer, easier way to pay online!">
-        <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/i/scr/pixel.gif" width="1" height="1">
-      </form>
       <br/>
 
       <div class="buttons">
@@ -182,101 +175,15 @@
 
 
 <div id="explanation">
-  <h3>But what is it?</h3>
-  <p>The program uses a simple genetic algorithm to evolve random two-wheeled shapes into cars over generations. Loosely
-    based on <a href="http://boxcar2d.com/">BoxCar2D</a>, but
-    written from scratch, only using the same physics engine (<a href="http://box2d.org/">box2d</a>).<br/>
-    seedrandom.js written by <a href="http://davidbau.com/">David Bau</a>. (thanks!)</p>
-
-
-  <h3>Controls</h3>
-  <table>
-    <tr>
-      <th>Save Population</th>
-      <td>Saves current population locally.</td>
-    </tr>
-    <tr>
-      <th>Restore Saved Population</th>
-      <td>Restore a previously saved population.</td>
-    </tr>
-    <tr>
-      <th>Suprise</th>
-      <td>Toggles drawing, makes the simulation faster.</td>
-    </tr>
-    <tr>
-      <th>New Population</th>
-      <td>Keeps the generated track and restarts the whole car population.</td>
-    </tr>
-    <tr>
-      <th>Create new world with seed</th>
-      <td>The same seed always creates the same track, so you can agree on a seed with your friends
-        and compete. :)
-      </td>
-    </tr>
-    <tr>
-      <th>Mutation rate</th>
-      <td>The chance that each gene in each individual will mutate to a random value when a new generation is
-        born.
-      </td>
-    </tr>
-    <tr>
-      <th>Mutation size</th>
-      <td>The range each gene can mutate into. Lower numbers mean the gene will have values closer to the
-        original.
-      </td>
-    </tr>
-    <tr>
-      <th>Elite clones</th>
-      <td>The top n cars that will be copied over to the next generation.</td>
-    </tr>
-    <tr>
-      <th>View top replay</th>
-      <td>Pause the current simulation and show the top performing car. Click a second time to resume
-        simulation.
-      </td>
-    </tr>
-  </table>
-
-  <h3>Graph</h3>
-  <table>
-    <tr>
-      <th>Red</th>
-      <td>Top score in each generation</td>
-    </tr>
-    <tr>
-      <th>Green</th>
-      <td>Average of the top 10 cars in each generation</td>
-    </tr>
-    <tr>
-      <th>Blue</th>
-      <td>Average of the entire generation</td>
-    </tr>
-  </table>
-
-  <h3>Genome</h3>
-  <p>
-    The genome consists of:
-  </p>
-  <ul>
-    <li>Shape (8 genes, 1 per vertex)</li>
-    <li>Wheel size (2 genes, 1 per wheel)</li>
-    <li>Wheel position (2 genes, 1 per wheel)</li>
-    <li>Wheel density (2 genes, 1 per wheel) darker wheels mean denser wheels</li>
-    <li>Chassis density (1 gene) darker body means denser chassis</li>
-  </ul>
-
-  <h3>Blurb</h3>
-  <p>This is not as deterministic as it should be, so your best car may not perform as well as it once did. The terrain
-    gets more complex with distance.<br/>
-    I'm not in the mood to deal with checking if all scripts have loaded before running, so refresh the page if things
-    seem whack.</p>
-
-  <h3>GitHub</h3>
-  <p>The code is now on a <a href="https://github.com/red42/HTML5_Genetic_Cars">GitHub repository</a>. Feel free to
-    contribute!</p>
-
-  <p>Originally written by <a href="http://rednuht.org">this guy</a>, now with contributions from patient people at GitHub.</p>
 </div>
+
+<div class="container">
+                <div class="col-md-8">
+                    <p class="copyright">©: <span>2018</span> | Handcrafted with <span style="color: #FF0000; font-size: 25px;">♥</span> by <b><span style="color: #00AEFF;">Team .EXE</span></b></p>
+                </div>
+                <div class="col-md-4">
+                </div>
+            </div>
 
 <div name="minimapmarker" class="minimapmarker"></div>
 
